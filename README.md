@@ -22,3 +22,7 @@ omarchy theme install https://github.com/Korgen-Jurai/omarchy-tenchi-muyo-theme.
 ## Wallpaper
 
 ![Tenchi Ultrawide wallpaper](backgrounds/1-tenchi-muyo.jpg)
+
+## Multi-monitor crops (bonus, not auto-installed)
+
+Omarchy renders one shared, centered-crop wallpaper across every monitor, which can crop the subject out on non-16:9 or portrait displays. `backgrounds/portrait-dp2.jpg` and `backgrounds/tv-hdmi-a-1.jpg` are alternate crops of the same source image, framed for a 1080x1920 portrait display and a 16:9 TV respectively. They're applied via a second, per-output `hyprpaper` instance layered on top of Omarchy's own background on just those outputs — see `~/.config/hypr/hyprpaper.conf` and the `hyprpaper` line in `~/.config/hypr/autostart.lua` on the machine this was built on. Not wired into the theme's install flow since it's monitor-layout specific.
