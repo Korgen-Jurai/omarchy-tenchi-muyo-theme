@@ -16,7 +16,6 @@ omarchy theme install https://github.com/Korgen-Jurai/omarchy-tenchi-muyo-theme.
 
 - Terminal palette (`colors.toml`) — drives Alacritty, Kitty, Foot, Ghostty, btop, VS Code, Obsidian, and more via Omarchy's built-in templates
 - Hyprland gaps/borders/rounding/animations (`hyprland.lua`)
-- Icon theme pointer (`icons.theme` → Yaru-blue-dark)
 - Wallpaper (`backgrounds/1-tenchi-muyo.jpg`)
 
 ## Wallpaper
